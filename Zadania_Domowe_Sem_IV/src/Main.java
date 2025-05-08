@@ -55,6 +55,7 @@ public class Main {
                 System.out.println("dokonano błędnego wyboru"); //if jednolinijkowy immo nieczytelne ale ok w filmiku było
                 break;
             }
+            // switch case mogą również być zapisane cas-> strzałkowo oraz mogą zwracać wartość poprzez yield
         }
     }
 }
