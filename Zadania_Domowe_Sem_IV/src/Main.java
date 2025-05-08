@@ -29,11 +29,12 @@ public class Main {
             System.out.println("dokonano błędnego wyboru"); //if jednolinijkowy immo nieczytelne ale ok w filmiku było
 
         // wersja na switch case
-        System.out.println("wybierz wzór 1 dla pola kwadratu, lub 2 dla pola prostokąta");
+        System.out.println("wybierz wzór 1lub5 dla pola kwadratu, lub 2 dla pola prostokąta");
         int wyborSwitch;
         wyborSwitch = sc.nextInt();
         switch(wyborSwitch)
         {
+            case 5: //dodatkowy case który odpali nam pierwszy case bo są zgrupowane
             case 1:{
                 System.out.print("Podaj długość boku kwadratu aby wyliczyć pole: ");
                 //Scanner sc = new Scanner(System.in); //zatrzymuje działanie programu i czeka na interakcję użytkownika(tego już nie musi być a nawet nie powinno bo jest wyżej)
@@ -55,6 +56,5 @@ public class Main {
                 break;
             }
         }
-
     }
 }
